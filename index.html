@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header"> 
+        <div class="container">
+            <div class="header__top">
+                <div class="header__logo">
+                    <div class="header__logo-img">
+                        <img src="./img/logo/logo.png" alt="logo">
+                    </div>
+                    <div class="header__logo-txt">
+                        <div class="header__logo-title">
+                            Миюши
+                        </div>
+                        <div class="header__logo-text">
+                            суши и роллы
+                        </div>
+                    </div>
+                </div>
+                <div class="header__location">
+                    <i class="fas fa-map-marker-alt"></i> г. Курск, ул. Ленина, д. 3
+                </div>
+                <div class="header__email">
+                    <a href="mailto:72727272@yandex.ru"><i class="far fa-envelope"></i>72727272@yandex.ru</a>
+                </div>
+                <div class="header__contact">
+                    <div class="header__contact-numbers">
+                        <a href="tel:+7 (800) 333 2 222">+7 (800) 333 2 222</a>
+                    </div>
+                    <div class="header__contact-time">
+                        Работаем с 11.00 до 23.00
+                    </div>
+                </div>
+                <div class="header__callback">
+                    <a href="#">
+                        Обратный звонок
+                    </a>
+                </div>
+                <div class="header__icons">
+                    <a href=""><i class="far fa-user room"></i></a>
+                    <a href=""> <i class="fas fa-shopping-cart shop"></i></a>
+                </div>
+            </div>
+            <nav class="header__menu">
+                <div class="header__burger">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="header__burger-btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+                    <ul>
+                        <li>
+                            <a href="">меню</a>
+                        </li>
+                        <li>
+                            <a href=""> акции и скидки </a>
+                        </li>
+                        <li>
+                            <a href="">доставка</a>
+                        </li>
+                        <li>
+                            <a href="">новости</a>
+                        </li>
+                        <li>
+                            <a href="">контакты</a>
+                        </li>
+                        <li>
+                            <a href=""> <i class="far fa-user"></i> кабинет</a>
+                        </li>
+                        <li>
+                            <a href=""> <i class="fas fa-shopping-cart"></i>корзина</a>
+                        </li>
+                        <li>
+                            <div class="header__burger-contact">
+                                <div class="header__contact-numbers">
+                                    <a href="tel:+7 (800) 333 2 222">+7 (800) 333 2 222</a>
+                                </div>
+                                <div class="header__contact-time">
+                                    Работаем с 11.00 до 23.00
+                                </div>
+                            </div>
+                            <div class="header__burger-callback">
+                                <a href="#">
+                                    <span>Обратный звонок</span>
+                                </a>
+                            </div>
+                            <div class="header__burger-location">
+                                <i class="fas fa-map-marker-alt"></i> г. Курск, ул. Ленина
+                            </div>
+
+
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <section class="slider">
+        <div class="slider-item">
+            <div class="slider-item__body">
+                <div class="container">
+                    <div class="slider-item__content ">
+                        <h1>Счастливые <br> часы</h1>
+                        <p>с 11:00 до 16:00 в будние дни</p>
+                        <a href="">Подробнее</a>
+                    </div>
+                </div>
+                <div class="slider-item__img ">
+                    <img src="./img/slider/discount.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-item">
+            <div class="slider-item__body">
+                <div class="container">
+                    <div class="slider-item__content ">
+                        <h1>Счастливые <br> часы</h1>
+                        <p>с 11:00 до 16:00 в будние дни</p>
+                        <a href="">Подробнее</a>
+                    </div>
+                </div>
+                <div class="slider-item__img ">
+                    <img src="./img/slider/discount.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-item">
+            <div class="slider-item__body">
+                <div class="container">
+                    <div class="slider-item__content ">
+                        <h1>Счастливые <br> часы</h1>
+                        <p>с 11:00 до 16:00 в будние дни</p>
+                        <a href="">Подробнее</a>
+                    </div>
+                </div>
+                <div class="slider-item__img ">
+                    <img src="./img/slider/discount.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="slider__arrow">
+        <div class="prev"><i class="fas fa-angle-left prev-icon"></i></div>
+        <div class="next"><i class="fas fa-angle-right next-icon"></i></div>
+
+    </div>
+    <div class="container">
+        <main class="main">
+            <section class="main__sets">
+                <div class="main__sets-title title">
+                    <img src="./img/title/title-left.png" alt=""> <span>Сеты</span><img
+                        src="./img/title/title-right.png" alt="">
+                </div>
+                <div class="main__sets-slider">
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img">
+                            <img src="./img/sets/img-1.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Сет №10
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    2 050 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img">
+                            <img src="./img/sets/img-2.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Сет №10
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    2 050 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img">
+                            <img src="./img/sets/img-3.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Сет №10
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    2 050 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img">
+                            <img src="./img/sets/img-4.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Сет №10
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    2 050 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img">
+                            <img src="./img/sets/img-1.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Сет №10
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    2 050 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="main__sets-arrow">
+                <div class="sets__prev all-prev">
+                    <i class="fas fa-arrow-left sets-right"></i>
+                </div>
+                <div class="sets__next all-next">
+                    <i class="fas fa-arrow-right sets-left"></i>
+                </div>
+            </div>
+
+            <section class="main__rolls">
+                <div class="main__sets-title title .main__rolls-title">
+                    <img src="./img/title/title-left.png" alt=""> <span>Сеты</span><img
+                        src="./img/title/title-right.png" alt="">
+                </div>
+                <div class="main__rolls-slider">
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img padding-blog-img ">
+                            <img src="./img/sushi/sushi-1.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Кунсей
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    260 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img padding-blog-img ">
+                            <img src="./img/sushi/sushi-2.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Унаги диру
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    270 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img padding-blog-img ">
+                            <img src="./img/sushi/sushi-3.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Филадельфия
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    280 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img padding-blog-img ">
+                            <img src="./img/sushi/sushi-4.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Мексиканский
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    290 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img padding-blog-img ">
+                            <img src="./img/sushi/sushi-1.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Кунсей
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    290 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="main__sets-arrow">
+                <div class="sets__prev all-prev">
+                    <i class="fas fa-arrow-left sets-right rolls-icon-right"></i>
+                </div>
+                <div class="sets__next all-next">
+                    <i class="fas fa-arrow-right sets-left rolls-icon-left"></i>
+                </div>
+            </div>
+
+            <section class="main__pizza blog-margin">
+                <div class="main__sets-title title .main__rolls-title">
+                    <img src="./img/title/title-left.png" alt=""> <span>Сеты</span><img
+                        src="./img/title/title-right.png" alt="">
+                </div>
+                <div class="main__pizza-slider">
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img">
+                            <img src="./img/pizza/pizza-1.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Баварская
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    460 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img">
+                            <img src="./img/pizza/pizza-2.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Вегетарианская
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    570 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img">
+                            <img src="./img/pizza/pizza-3.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Пепперони
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    430 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img">
+                            <img src="./img/pizza/pizza-4.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Классическая
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    290 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img">
+                            <img src="./img/pizza/pizza-4.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Пепперони
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    290 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="main__sets-arrow">
+                <div class="sets__prev all-prev">
+                    <i class="fas fa-arrow-left sets-right pizza-icon-right"></i>
+                </div>
+                <div class="sets__next all-next">
+                    <i class="fas fa-arrow-right sets-left pizza-icon-left"></i>
+                </div>
+            </div>
+
+            <section class="main__wok blog-margin">
+                <div class="main__sets-title title .main__rolls-title">
+                    <img src="./img/title/title-left.png" alt=""> <span>WOK</span><img src="./img/title/title-right.png"
+                        alt="">
+                </div>
+                <div class="main__wok-slider">
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img padding-blog-img">
+                            <img src="./img/wok/wok-1.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                С говядиной
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    460 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img padding-blog-img ">
+                            <img src="./img/wok/wok-2.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                С курицей
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    570 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img padding-blog-img ">
+                            <img src="./img/wok/wok-3.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                С овощами
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    430 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img padding-blog-img ">
+                            <img src="./img/wok/wok-4.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                С овощами
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    290 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img padding-blog-img ">
+                            <img src="./img/wok/wok-4.png" alt="">
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                С овощами
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    290 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="main__sets-arrow">
+                <div class="sets__prev all-prev">
+                    <i class="fas fa-arrow-left sets-right wok-icon-right"></i>
+                </div>
+                <div class="sets__next all-next">
+                    <i class="fas fa-arrow-right sets-left wok-icon-left"></i>
+                </div>
+            </div>
+    </div>
+
+    <section class="main__new">
+        <div class="container">
+            <div class="main__new-btn">
+                <a href="">Новинки</a>
+            </div>
+            <section class="main__wok blog-margin">
+                <div class="main__new-slider">
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img">
+                            <img src="./img/pizza/pizza-1.png" alt="">
+                            <div class="new-line"><span>new</span></div>
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Баварская
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    460 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img">
+                            <img src="./img/pizza/pizza-2.png" alt="">
+                            <div class="new-line"><span>new</span></div>
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Вегетарианская
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    570 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img">
+                            <img src="./img/pizza/pizza-3.png" alt="">
+                            <div class="new-line"><span>new</span></div>
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Пепперони
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    430 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img">
+                            <img src="./img/pizza/pizza-4.png" alt="">
+                            <div class="new-line"><span>new</span></div>
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Классическая
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    290 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sets-slider__item">
+                        <div class="slider__item-img">
+                            <img src="./img/pizza/pizza-4.png" alt="">
+                            <div class="new-line"><span>new</span></div>
+                        </div>
+                        <div class="sets-slider__content">
+                            <div class="slider__item-title content-title">
+                                Пепперони
+                            </div>
+                            <div class="slider__item-colorability colorability">
+                                72 шт. | 1560 г. | 1700 Kkal
+                            </div>
+                            <div class="sets-slider__bottom">
+                                <div class="slider__item-cost cost">
+                                    290 <span>руб.</span>
+                                </div>
+                                <div class="slider__item-howmany howmany">
+                                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="sets-slider__btn goto-shop">
+                                <a href="">В корзину <img src="./img/icons/shop.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__sets-arrow">
+                    <div class="sets__prev all-prev">
+                        <i class="fas fa-arrow-left sets-right new-icon-right"></i>
+                    </div>
+                    <div class="sets__next all-next">
+                        <i class="fas fa-arrow-right sets-left new-icon-left"></i>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="main__reason">
+            <div class="main__reason-title title">
+                <img src="./img/title/title-left.png" alt=""> <span>10 причин купить у нас</span><img
+                    src="./img/title/title-right.png" alt="">
+            </div>
+            <div class="main__reason-blog">
+                <div class="main__reason-item">
+                    <div class="main__reason-item-img">
+                        <img src="./img/reason-img/knife.png" alt="">
+                    </div>
+                    <div class="main__reason-item-txt">
+                        100% ручная работа
+                    </div>
+                </div>
+
+                <div class="main__reason-item">
+                    <div class="main__reason-item-img">
+                        <img src="./img/reason-img/meal.png" alt="">
+                    </div>
+                    <div class="main__reason-item-txt">
+                        100% свежие <br>
+                        ингредиенты
+                    </div>
+                </div>
+
+                <div class="main__reason-item">
+                    <div class="main__reason-item-img">
+                        <img src="./img/reason-img/money.png" alt="">
+                    </div>
+                    <div class="main__reason-item-txt">
+                        Самые низкие цены на рынке!
+                    </div>
+                </div>
+                <div class="show-all">
+                    <input type="checkbox" name="shaw-all" id="shaw-all-btn">
+                    <label for="shaw-all-btn"><span>Показать все</span></label>
+                    <div class="main__reason-item reason-btn">
+                        <div class="main__reason-item-img">
+                            <img src="./img/reason-img/like.png" alt="">
+                        </div>
+                        <div class="main__reason-item-txt">
+                            Постоянный контроль качества на всех этапах
+                        </div>
+                    </div>
+
+                    <div class="main__reason-item reason-btn">
+                        <div class="main__reason-item-img">
+                            <img src="./img/reason-img/fish.png" alt="">
+                        </div>
+                        <div class="main__reason-item-txt">
+                            Только охлажденная рыба (никакой заморозки)
+                        </div>
+                    </div>
+
+                    <div class="main__reason-item reason-btn">
+                        <div class="main__reason-item-img">
+                            <img src="./img/reason-img/rice.png" alt="">
+                        </div>
+                        <div class="main__reason-item-txt">
+                            Мы используем только дорогой рис из Японии
+                        </div>
+                    </div>
+
+                    <div class="main__reason-item reason-btn">
+                        <div class="main__reason-item-img">
+                            <img src="./img/reason-img/octopus.png" alt="">
+                        </div>
+                        <div class="main__reason-item-txt">
+                            Больше начинки, меньше риса!
+                        </div>
+                    </div>
+
+                    <div class="main__reason-item reason-btn">
+                        <div class="main__reason-item-img">
+                            <img src="./img/reason-img/cucember.png" alt="">
+                        </div>
+                        <div class="main__reason-item-txt">
+                            Мы не заменяем авокадо огурцом!
+                        </div>
+                    </div>
+
+                    <div class="main__reason-item reason-btn">
+                        <div class="main__reason-item-img">
+                            <img src="./img/reason-img/pizza.png" alt="">
+                        </div>
+                        <div class="main__reason-item-txt">
+                            Вся пицца готовится из итальянской муки и Итальянского соуса
+                        </div>
+                    </div>
+
+                    <div class="main__reason-item reason-btn">
+                        <div class="main__reason-item-img">
+                            <img src="./img/reason-img/leave.png" alt="">
+                        </div>
+                        <div class="main__reason-item-txt">
+                            Мы не используем майонез!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__feedback">
+            <div class="main__feedback-title title">
+                <img src="./img/title/title-left.png" alt=""> <span>Отзывы</span><img src="./img/title/title-right.png"
+                    alt="">
+            </div>
+            <div class="main__feedback-body">
+                <div class="main__feedback-item">
+                    <div class="feedback__item-title">
+                        <div class="main__feedback-ava">
+                            <img src="./img/feedback/avatar.png" alt="">
+                        </div>
+                        <div class="main__feedback-title-txt">
+                            <span> Надежда Наширбанова</span>
+                            <p>5 авг 2017 в 9:58</p>
+                        </div>
+                    </div>
+                    <div class="feedback__item-opinion">
+                        Спасибо за быструю доставку! Отличный поздний ужин после рабоче дня!
+                    </div>
+                    <div class="feedback__item-img">
+                        <img src="./img/feedback/feedback.png" alt="">
+                    </div>
+                    <div class="feedback__item-icon">
+                        <input type="checkbox" name="like" id="like-btn">
+                        <label for="like-btn">
+                            <span><i class="fas fa-heart"></i></span>
+                        </label>
+
+                        <input type="checkbox" name="coment" id="coment-btn">
+                        <label for="coment-btn">
+                            <span><i class="fas fa-comment-alt"></i></span>
+                        </label>
+
+                        <input type="checkbox" name="voice" id="voice-btn">
+                        <label for="voice-btn">
+                            <span><i class="fas fa-volume-off"></i></span>
+                        </label>
+
+                    </div>
+                    <div class="feedback__item-btn">
+                        <a href=""><i class="fab fa-vk"></i> Подписаться</a>
+                    </div>
+                </div>
+
+                <div class="main__feedback-item">
+                    <div class="feedback__item-title">
+                        <div class="main__feedback-ava">
+                            <img src="./img/feedback/avatar.png" alt="">
+                        </div>
+                        <div class="main__feedback-title-txt">
+                            <span> Надежда Наширбанова</span>
+                            <p>5 авг 2017 в 9:58</p>
+                        </div>
+                    </div>
+                    <div class="feedback__item-opinion">
+                        Спасибо за быструю доставку! Отличный поздний ужин после рабоче дня!
+                    </div>
+                    <div class="feedback__item-img">
+                        <img src="./img/feedback/feedback.png" alt="">
+                    </div>
+                    <div class="feedback__item-icon">
+                        <input type="checkbox" name="like" id="like-btn-2">
+                        <label for="like-btn-2">
+                            <span><i class="fas fa-heart"></i></span>
+                        </label>
+
+                        <input type="checkbox" name="coment" id="coment-btn-2">
+                        <label for="coment-btn-2">
+                            <span><i class="fas fa-comment-alt"></i></span>
+                        </label>
+
+                        <input type="checkbox" name="voice" id="voice-btn-2">
+                        <label for="voice-btn-2">
+                            <span><i class="fas fa-volume-off"></i></span>
+                        </label>
+
+                    </div>
+                    <div class="feedback__item-btn">
+                        <a href=""><i class="fab fa-vk"></i> Подписаться</a>
+                    </div>
+                </div>
+
+                <div class="main__feedback-item feedback-none">
+                    <div class="feedback__item-title">
+                        <div class="main__feedback-ava">
+                            <img src="./img/feedback/avatar.png" alt="">
+                        </div>
+                        <div class="main__feedback-title-txt">
+                            <span> Надежда Наширбанова</span>
+                            <p>5 авг 2017 в 9:58</p>
+                        </div>
+                    </div>
+                    <div class="feedback__item-opinion">
+                        Спасибо за быструю доставку! Отличный поздний ужин после рабоче дня!
+                    </div>
+                    <div class="feedback__item-img">
+                        <img src="./img/feedback/feedback.png" alt="">
+                    </div>
+                    <div class="feedback__item-icon">
+                        <input type="checkbox" name="like" id="like-btn-3">
+                        <label for="like-btn-3">
+                            <span><i class="fas fa-heart"></i></span>
+                        </label>
+
+                        <input type="checkbox" name="coment" id="coment-btn-3">
+                        <label for="coment-btn-3">
+                            <span><i class="fas fa-comment-alt"></i></span>
+                        </label>
+
+                        <input type="checkbox" name="voice" id="voice-btn-3">
+                        <label for="voice-btn-3">
+                            <span><i class="fas fa-volume-off"></i></span>
+                        </label>
+
+                    </div>
+                    <div class="feedback__item-btn">
+                        <a href=""><i class="fab fa-vk"></i> Подписаться</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="main__form">
+        <div class="main__form-body">
+            <div class="container">
+                <div class="main__form-subtitle">
+                    Есть вопросы?
+                </div>
+                <div class="main__form-title">
+                    Оставьте свои контакты
+                </div>
+                <form action="form.php" accept="Get">
+                    <input type="text" name="main__form" placeholder="Имя">
+                    <input type="text" name="main__form" placeholder="Телефон">
+                    <input type="button" name="main__form" value="Отправить">
+                </form>
+                <div class="main__form-bottom-txt">
+                    Нажимая на кнопку «Отправить», вы даете согласие на обработку своих персональных данных.
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <section class="about-company">
+            <div class="about-company__title title">
+                <img src="./img/title/title-left.png" alt=""> <span>О компании</span><img
+                    src="./img/title/title-right.png" alt="">
+            </div>
+            <div class="about-company__subtitle">
+                Заказ и доставка роллов, пиццы и WOK(Вок) в городе Курск
+            </div>
+            <div class="about-company__body">
+                <div class="about-company__item">
+                    <div class="about-company__txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatem, quos fugit
+                        unde omnis porro. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto expedita
+                        fuga nemo neque necessitatibus debitis cupiditate odio corporis alias repudiandae!
+                    </div>
+                    <div class="about-company__txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatem, quos fugit
+                        unde omnis porro. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto expedita
+                        fuga nemo neque necessitatibus debitis cupiditate odio corporis alias repudiandae!
+                    </div>
+                    <div class="show-all">
+                        <input type="checkbox" name="shaw-all" id="shaw-all-company">
+                        <label for="shaw-all-company"><span>Показать все</span></label>
+                        <div class="about-company__txt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatem, quos fugit
+                            unde omnis porro. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                            expedita
+                            fuga nemo neque necessitatibus debitis cupiditate odio corporis alias repudiandae!
+                        </div>
+
+                        <div class="about-company__txt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatem, quos fugit
+                            unde omnis porro. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                            expedita
+                            fuga nemo neque necessitatibus debitis cupiditate odio corporis alias repudiandae!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum in a explicabo, molestiae
+                            tenetur
+                            veritatis.
+                        </div>
+
+                        <div class="about-company__txt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatem, quos fugit
+                            unde omnis porro. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                            expedita
+                            fuga nemo neque necessitatibus debitis cupiditate odio corporis alias repudiandae!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum in a explicabo, molestiae
+                            tenetur
+                            veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis
+                            perferendis
+                            quam laboriosam architecto in iusto, doloribus sed totam. Optio, delectus.
+                        </div>
+                    </div>
+                </div>
+                <div class="about-company__img">
+                    <img src="./img/about us/img.png" alt="">
+                </div>
+            </div>
+
+        </section>
+    </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top footer__media">
+                <div class="footer__top-body">
+                    <div class="footer__top-item">
+                        <p><a href="">Суши </a></p>
+                        <p><a href="">Гунканы </a></p>
+                        <p><a href=""> Инари </a></p>
+                        <p><a href=""> Супы </a></p>
+                        <p><a href=""> Салаты </a></p>
+                        <p><a href=""> Горячие закуски</a></p>
+                        <p><a href="">Десерты </a></p>
+                        <p><a href=""> Напитки </a></p>
+
+                    </div>
+
+                    <div class="footer__price">
+                        <p class="footer__price-title"><a href=""> <span>Сеты</span> </a></p>
+                        <p><a href="">До 500 руб. </a></p>
+                        <p><a href=""> До 1000 руб. (для двоих) </a></p>
+                        <p><a href="">До 1500 руб (для двоих - троих) </a></p>
+                        <p><a href=""> До 2000 руб (большая компания) </a></p>
+                        <p><a href=""> От 2000 руб (очень большая компания)</a></p>
+                    </div>
+
+                    <div class="footer__wok footer__price">
+                        <p class="footer__price-title"><a href=""> <span>Вок</span> </a></p>
+                        <p><a href="">Яичная </a></p>
+                        <p><a href=""> Удон </a></p>
+                        <p><a href="">Гречневая </a></p>
+                        <p><a href=""> Стеклянная </a></p>
+                        <p><a href=""> Рис</a></p>
+                    </div>
+
+                    <div class="footer__rolls footer__price">
+                        <p class="footer__price-title"><a href=""> <span>Роллы</span> </a></p>
+                        <p><a href="">Традиционные/Классические </a></p>
+                        <p><a href=""> Простые </a></p>
+                        <p><a href="">Теплые </a></p>
+                        <p><a href=""> Запеченые </a></p>
+                        <p><a href=""> Вегитарианские</a></p>
+                    </div>
+
+                    <div class="footer__pizza footer__price">
+                        <p class="footer__price-title"><a href=""> <span>Пицца</span> </a></p>
+                        <p><a href="">Мясная </a></p>
+                        <p><a href=""> Рыбная </a></p>
+                        <p><a href="">Сырная </a></p>
+                        <p><a href="">Вегитарианская </a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__top-media">
+                <div class="footer__content">
+                    <input class="footer__input" type="checkbox" name="footer__menu" id="footer-1">
+                    <label class="footer__title" for="footer-1">
+                        Меню <img src="./img/icons/arrow.png" alt="">
+                    </label>
+                    <div class="footer__content-txt">
+                        <p><a href="">Суши </a></p>
+                        <p><a href="">Гунканы </a></p>
+                        <p><a href=""> Инари </a></p>
+                        <p><a href=""> Супы </a></p>
+                        <p><a href=""> Салаты </a></p>
+                        <p><a href=""> Горячие закуски</a></p>
+                        <p><a href="">Десерты </a></p>
+                        <p><a href=""> Напитки </a></p>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <input class="footer__input" type="checkbox" name="footer__menu" id="footer-2">
+                    <label class="footer__title" for="footer-2">
+                        Сеты <img src="./img/icons/arrow.png" alt="">
+                    </label>
+                    <div class="footer__content-txt">
+                        <p><a href="">До 500 руб. </a></p>
+                        <p><a href=""> До 1000 руб. (для двоих) </a></p>
+                        <p><a href="">До 1500 руб (для двоих - троих) </a></p>
+                        <p><a href=""> До 2000 руб (большая компания) </a></p>
+                        <p><a href=""> От 2000 руб (очень большая компания)</a></p>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <input class="footer__input" type="checkbox" name="footer__menu" id="footer-3">
+                    <label class="footer__title" for="footer-3">
+                        Роллы <img src="./img/icons/arrow.png" alt="">
+                    </label>
+                    <div class="footer__content-txt">
+                        <p><a href="">Традиционные/Классические </a></p>
+                        <p><a href=""> Простые </a></p>
+                        <p><a href="">Теплые </a></p>
+                        <p><a href=""> Запеченые </a></p>
+                        <p><a href=""> Вегитарианские</a></p>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <input class="footer__input" type="checkbox" name="footer__menu" id="footer-4">
+                    <label class="footer__title" for="footer-4">
+                        Вок <img src="./img/icons/arrow.png" alt="">
+                    </label>
+                    <div class="footer__content-txt">
+                        <p><a href="">Яичная </a></p>
+                        <p><a href=""> Удон </a></p>
+                        <p><a href="">Гречневая </a></p>
+                        <p><a href=""> Стеклянная </a></p>
+                        <p><a href=""> Рис</a></p>
+                    </div>
+                </div>
+
+
+                <div class="footer__content">
+                    <input class="footer__input" type="checkbox" name="footer__menu" id="footer-5">
+                    <label class="footer__title" for="footer-5">
+                        Пицца <img src="./img/icons/arrow.png" alt="">
+                    </label>
+                    <div class="footer__content-txt">
+                        <p><a href="">Мясная </a></p>
+                        <p><a href=""> Рыбная </a></p>
+                        <p><a href="">Сырная </a></p>
+                        <p><a href="">Вегитарианская </a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="footer__bottom-body">
+                    <div class="footer__bottom-name">
+                        МИЮШИ © 2017
+                    </div>
+                    <div class="footer__bottom-accept">
+                        <a href="">
+                            Соглашение на обработку персональных данных
+                        </a>
+                    </div>
+                    <div class="footer__bottom-icons">
+                        <div class="instagram">
+                            <a href=""> <i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="vk">
+                            <a href=""> <i class="fab fa-vk"></i></a>
+                        </div>
+                        <div class="facebook">
+                            <a href=""> <i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src=" libs/slick/js/jquery-3.3.1.js"></script>
+    <script src="libs/slick/js/jquery-migrate-3.1.0.js"></script>
+    <script src="libs/slick/js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
