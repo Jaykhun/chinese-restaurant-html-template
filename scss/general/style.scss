@@ -1,0 +1,33 @@
+@import "font";
+@import "variables";
+@import "reset";
+@import "mixin";
+@import "ui";
+@import "../header/header-menu";
+@import "../header/header-top";
+@import "../header/header-slider";
+@import "../main/main__sets/main-sets";
+@import "../main/main__rolls/main-rolls";
+@import "../main/main__new/main-new";
+@import "../main/main__reason/main-reason";
+@import "../main/main__feedback/main-feedback";
+@import "../main/main__form/main-form";
+@import "../main/about-company/about-company";
+@import "../footer/footer__top/footer-top";
+@import "../footer/footer__bottom/footer-bottom";
+@import "../header/header-media";
+@import "../main/main__sets/main-sets-media";
+@import "../main/main__rolls/main-rolls-media";
+@import "../main/main__new/main-new-media";
+@import "../main/main__reason/main-reason-media";
+@import "../main/main__feedback/main-feedback-media";
+@import "../main/main__form/main-form-media";
+@import "../main/about-company/about-company-media";
+@import "../footer/footer__top/footer-top-media";
+@import "../footer/footer__bottom/footer-bottom-media";
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}

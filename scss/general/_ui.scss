@@ -1,0 +1,148 @@
+.title {
+    @include font($LemonTuesday, 3.75em);
+    @include text($titleColor, none, center);
+    span {
+        padding: 0 30px;
+    }
+    img {
+        cursor: default;
+    }
+}
+
+.blog-margin {
+    margin-top: 90px;
+}
+
+.padding-blog-img {
+    padding: 20px;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.08);
+}
+.box-shadow-none {
+    &:hover {
+        box-shadow: 0px 0px 0px 0px #fff;
+    }
+}
+.new-line {
+    position: absolute;
+    top: 12px;
+    left: -27px;
+    z-index: 11;
+    width: 106px;
+    height: 25px;
+    transform: rotate(140deg);
+    background-color: $headerIcon;
+    span {
+        transform: rotate(-185deg);
+        position: absolute;
+        top: 5px;
+        left: 35px;
+        @include font($RobotoSlab, 1em);
+        letter-spacing: 1px;
+        color: #fff;
+    }
+    &:before {
+        position: relative;
+        top: -2px;
+        left: 1px;
+        display: block;
+        content: "";
+        width: 17px;
+        height: 42px;
+        background-color: #fff;
+        transform: rotate(130deg);
+    }
+    &:after {
+        position: relative;
+        top: -43px;
+        left: 83px;
+        display: block;
+        content: "";
+        width: 24px;
+        height: 45px;
+        background-color: #fff;
+        transform: rotate(-140deg);
+    }
+}
+
+#shaw-all-btn:checked ~ .main__reason-item {
+    display: flex;
+}
+
+#shaw-all-btn:checked ~ label {
+    display: none;
+}
+#shaw-all-company:checked ~ .about-company__txt {
+    display: block;
+}
+
+#shaw-all-company:checked ~ label {
+    display: none;
+}
+.content-title {
+    @include font($OpenSans, 1.25em, 700);
+    @include text(#000, none, center);
+}
+.colorability {
+    @include font($OpenSans, 0.75em, 400);
+    @include text(#000, none, center);
+}
+.cost {
+    @include font($RobotoSlab, 1.3em, 700);
+    @include text(#000, none, center);
+    span {
+        font-size: 0.6em;
+        position: relative;
+        top: -6px;
+    }
+}
+.howmany {
+    @include font($OpenSans, 0.8em);
+    @include text(#000, none, center);
+    span {
+        font-weight: 700;
+    }
+    i {
+        font-size: 0.8em;
+        color: #303030;
+        padding: 3px;
+        border-radius: 50%;
+        border: 1px solid#303030;
+    }
+}
+.goto-shop {
+    text-align: center;
+    a {
+        padding: 12px 30px 12px 2px;
+        position: relative;
+        display: block;
+        background-color: $sliderButtonBcg;
+        border-radius: 7px;
+        @include font($OpenSans, 0.8em, 600);
+        @include text(#fff, uppercase, center);
+    }
+    img {
+        position: absolute;
+        top: 8px;
+        right: 25px;
+    }
+}
+
+.all-prev {
+    position: absolute;
+    top: 8px;
+    left: 40%;
+    i {
+        color: $mainSlickDots;
+        cursor: pointer;
+    }
+}
+
+.all-next {
+    position: absolute;
+    top: 8px;
+    right: 40%;
+    i {
+        cursor: pointer;
+        color: $mainSlickDots;
+    }
+}

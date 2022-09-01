@@ -1,0 +1,75 @@
+.header {
+    &__top {
+        padding: 10px 0px 20px 0px;
+        @include flex(space-between, center);
+    }
+
+    &__logo {
+        @include flex(space-between, center);
+    }
+
+    &__logo-title {
+        @include font($OpenSans, 1.2em, 600);
+        line-height: 130%;
+    }
+    &__logo-txt {
+        margin-left: 12px;
+    }
+    &__location {
+        @include font($OpenSans, 0.9em);
+        i {
+            color: $headerIcon;
+            font-size: 1.3em;
+            margin-right: 8px;
+        }
+    }
+    &__logo-img {
+        width: 71px;
+    }
+
+    &__logo-text {
+        @include font($OpenSans, 0.9em);
+    }
+
+    &__email {
+        a {
+            @include font($OpenSans, 0.9em);
+            color: #000;
+        }
+        i {
+            color: $headerIcon;
+            font-size: 1em;
+            margin-right: 8px;
+        }
+    }
+
+    &__contact {
+        line-height: 120%;
+    }
+
+    &__contact-numbers {
+        a {
+            @include font($OpenSans, 1.2em, 700);
+            color: #000;
+        }
+    }
+
+    &__contact-time {
+        @include font($OpenSans, 0.7em, 600);
+    }
+
+    &__callback {
+        a {
+            @include font($OpenSans, 1em, 600);
+            @include text($headerIcon, uppercase, center);
+            border: 2px solid $headerIcon;
+            border-radius: 5px;
+            padding: 10px 18px;
+            transition-duration: 0.3s;
+            &:hover {
+                background-color: $headerHover;
+                color: #fff;
+            }
+        }
+    }
+}

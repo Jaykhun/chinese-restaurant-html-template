@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1100px) {
+    .about-company {
+        &__item {
+            margin-right: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .about-company {
+        &__subtitle {
+            text-align: center;
+        }
+
+        &__img {
+            display: none;
+        }
+        &__item {
+            margin-right: 0px;
+            max-width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .about-company {
+        &__item {
+            justify-content: flex-start;
+        }
+        .show-all {
+            .about-company__txt {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    .about-company {
+        &__title {
+            img {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .about-company {
+        &__subtitle {
+            text-align: left;
+        }
+    }
+}

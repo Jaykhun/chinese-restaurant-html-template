@@ -1,0 +1,18 @@
+@media only screen and (min-width: 950px) {
+    .footer {
+        &__top-media {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .footer {
+        .container {
+            padding: 0px;
+        }
+        &__media {
+            display: none;
+        }
+    }
+}

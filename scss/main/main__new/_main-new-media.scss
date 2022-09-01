@@ -1,0 +1,11 @@
+@media only screen and (max-width: 850px) {
+    .new-line {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .main__new-btn {
+        margin-bottom: 41px;
+    }
+}

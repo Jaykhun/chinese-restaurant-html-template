@@ -1,0 +1,85 @@
+.slider {
+    &__arrow {
+        .prev {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            background-color: #0009;
+            border-radius: 50%;
+
+            i {
+                font-size: 2em;
+                padding: 20px 30px;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+        .next {
+            position: absolute;
+            top: 50%;
+            right: 10%;
+            background-color: #0009;
+            border-radius: 50%;
+
+            i {
+                font-size: 2em;
+                padding: 20px 30px;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+    .slick-dots {
+        position: relative;
+        top: -65px;
+        @include flex(center, center);
+        li {
+            margin: 0px 10px;
+            &.slick-active button {
+                background-color: $headerHover;
+                border-color: transparent;
+            }
+        }
+        button {
+            cursor: pointer;
+            font-size: 0;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            border: 1px solid #fff;
+            background-color: transparent;
+            transition: background-color 0.3s ease;
+        }
+    }
+}
+.slider-item {
+    width: 1920px;
+    height: 676px;
+    background-image: url(../img/slider/slider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &__img {
+        position: relative;
+        top: -415px;
+        left: 53%;
+    }
+    &__content {
+        h1 {
+            @include font($LemonTuesday, 6.9em);
+            color: $sliderTitle;
+        }
+        p {
+            @include font($OpenSans, 1.7em, 400, italic);
+            color: #fff;
+            margin-bottom: 75px;
+        }
+        a {
+            padding: 20px 75px;
+            background-color: $sliderButtonBcg;
+            @include font($OpenSans, 1em);
+            color: #fff;
+            border-radius: 7px;
+        }
+    }
+}

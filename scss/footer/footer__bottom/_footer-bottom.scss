@@ -1,0 +1,39 @@
+.footer {
+    &__bottom {
+        padding: 55px 0px;
+    }
+
+    &__bottom-body {
+        @include flex(space-between, flex-start, row, nowrap);
+    }
+
+    &__bottom-name {
+        @include font($OpenSans, 0.8em);
+        color: $footerTxt;
+    }
+
+    &__bottom-accept {
+        flex: 0 0 65%;
+        a {
+            @include font($OpenSans, 0.8em);
+            color: $footerTxt;
+            text-decoration-line: underline;
+        }
+    }
+
+    &__bottom-icons {
+        .vk {
+            margin: 0px 10px;
+        }
+        i {
+            line-height: 30px;
+            text-align: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: $footerIconBcg;
+            color: #fff;
+        }
+        @include flex(space-between, flex-start);
+    }
+}

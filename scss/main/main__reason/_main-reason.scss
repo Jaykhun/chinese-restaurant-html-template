@@ -1,0 +1,35 @@
+.show-all {
+    @include flex(center, center, row, wrap);
+    label {
+        display: none;
+    }
+}
+.main {
+    &__reason {
+        margin-top: 100px;
+    }
+
+    &__reason-title {
+        margin-bottom: 70px;
+    }
+
+    &__reason-blog {
+        @include flex(center, center, row, wrap);
+    }
+
+    &__reason-item {
+        padding: 10px;
+        flex: 0 0 20%;
+        margin-bottom: 35px;
+        @include flex(center, center, column, nowrap);
+    }
+
+    &__reason-item-txt {
+        margin-top: 35px;
+        @include font($OpenSans, 1em);
+        color: $reasonTxt;
+        text-align: center;
+        word-spacing: 2px;
+        line-height: 175%;
+    }
+}

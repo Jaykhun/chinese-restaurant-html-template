@@ -1,0 +1,41 @@
+.main {
+    &__new {
+        width: 100%;
+        min-height: 745px;
+        background-image: url(../img/bcgnews/bcg.png);
+        background-position: center;
+        .slick-dots {
+            position: relative;
+            top: 20px;
+            @include flex(center, center);
+            li {
+                margin: 0px 10px;
+                &.slick-active button {
+                    background-color: $headerHover;
+                    border-color: transparent;
+                }
+            }
+            button {
+                cursor: pointer;
+                font-size: 0;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: $mainSlickDots;
+                transition: background-color 0.3s ease;
+            }
+        }
+    }
+    &__new-btn {
+        margin-top: 70px;
+        padding-top: 66px;
+        margin-bottom: -60px;
+        margin-right: 15px;
+        a {
+            margin-left: 15px;
+
+            @include font($OpenSans, 1.2em, 600);
+            color: $newBtn;
+        }
+    }
+}

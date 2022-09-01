@@ -1,0 +1,33 @@
+.about-company {
+    &__title {
+        margin: 76px 0px 71px 0px;
+    }
+
+    &__body {
+        @include flex(space-between, center, row);
+    }
+
+    &__item {
+        max-width: 70%;
+        @include flex(space-between, center, column);
+    }
+
+    &__subtitle {
+        @include font($OpenSans, 1.5em, 800);
+        color: $titleColor;
+        margin-bottom: 42px;
+    }
+
+    &__img {
+        img {
+            height: 478px;
+        }
+    }
+
+    &__txt {
+        @include font($OpenSans, 0.9em);
+        color: $reasonTxt;
+        margin-bottom: 30px;
+        line-height: 150%;
+    }
+}

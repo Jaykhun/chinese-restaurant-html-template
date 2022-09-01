@@ -1,0 +1,67 @@
+.header {
+    &__burger-btn {
+        @include flex(center, center);
+        position: absolute;
+        top: 20px;
+        left: -100%;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 100;
+    }
+    .header__burger-btn > span,
+    .header__burger-btn > span::before,
+    .header__burger-btn > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: $headerIcon;
+    }
+    .header__burger-btn > span::before {
+        content: "";
+        top: -8px;
+    }
+    .header__burger-btn > span::after {
+        content: "";
+        top: 8px;
+    }
+    &__icons {
+        display: none;
+    }
+    &__menu {
+        ul {
+            @include flex(center, center);
+            z-index: 99;
+            li {
+                text-align: center;
+                &:nth-child(8) {
+                    display: none;
+                }
+                a {
+                    i {
+                        color: $headerIcon;
+                        margin-right: 12px;
+                        font-size: 1.3em;
+                    }
+                    display: block;
+                    width: 165px;
+                    height: 50px;
+                    line-height: 30px;
+                    padding: 10px 6px;
+                    @include font($OpenSans, 0.86em, 700);
+                    @include text(#000, uppercase, center);
+                    transition: color 0.3s linear;
+                    transition: background 0.3s linear;
+                    &:hover {
+                        background-color: $headerHover;
+                        color: #eee;
+                        i {
+                            color: #eee;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
